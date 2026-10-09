@@ -1,0 +1,124 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:b88d211a-d03d-50c9-a68e-ee8786b458e3",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T13:47:44Z",
+  "component": {
+   "type": "application",
+   "name": "MANTICORESEARCH",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/MANTICORESEARCH@83b357604d34",
+   "purl": "pkg:generic/anticloud/MANTICORESEARCH@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "GPL-3.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "Threads",
+   "version": "unspecified",
+   "purl": "pkg:generic/Threads",
+   "bom-ref": "native/Threads@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "PythonInterp",
+   "version": "unspecified",
+   "purl": "pkg:generic/PythonInterp",
+   "bom-ref": "native/PythonInterp@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "name",
+   "version": "sqlx_prepared_stmt",
+   "purl": "pkg:cargo/name@sqlx_prepared_stmt",
+   "bom-ref": "cargo/name@sqlx_prepared_stmt"
+  },
+  {
+   "type": "library",
+   "name": "version",
+   "version": "0.1.0",
+   "purl": "pkg:cargo/version@0.1.0",
+   "bom-ref": "cargo/version@0.1.0"
+  },
+  {
+   "type": "library",
+   "name": "edition",
+   "version": "2021",
+   "purl": "pkg:cargo/edition@2021",
+   "bom-ref": "cargo/edition@2021"
+  },
+  {
+   "type": "library",
+   "name": "sqlx",
+   "version": "0.7",
+   "purl": "pkg:cargo/sqlx@0.7",
+   "bom-ref": "cargo/sqlx@0.7"
+  },
+  {
+   "type": "library",
+   "name": "tokio",
+   "version": "1",
+   "purl": "pkg:cargo/tokio@1",
+   "bom-ref": "cargo/tokio@1"
+  },
+  {
+   "type": "library",
+   "name": "mysql2",
+   "version": "^3.11.0",
+   "purl": "pkg:npm/mysql2@^3.11.0",
+   "bom-ref": "npm/mysql2@^3.11.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/go-sql-driver/mysql",
+   "version": "v1.8.1",
+   "purl": "pkg:golang/github.com/go-sql-driver/mysql@v1.8.1",
+   "bom-ref": "go/github.com/go-sql-driver/mysql@v1.8.1"
+  },
+  {
+   "type": "library",
+   "name": "filippo.io/edwards25519",
+   "version": "v1.1.0",
+   "purl": "pkg:golang/filippo.io/edwards25519@v1.1.0",
+   "bom-ref": "go/filippo.io/edwards25519@v1.1.0"
+  },
+  {
+   "type": "library",
+   "name": "Boost",
+   "version": "unspecified",
+   "purl": "pkg:generic/Boost",
+   "bom-ref": "native/Boost@unspecified"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
